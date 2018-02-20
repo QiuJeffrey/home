@@ -1,0 +1,84 @@
+head, body
+{
+	background-color: white;
+}
+
+.list
+{
+	text-align : left;
+   	font-size: 13pt;
+  	line-height: 16pt;
+	color: black;
+	margin-bottom: 15pt;
+}
+/* All ordered and unordered lists go under the "list" class. I put descriptive lists into their own class because they are more like paragraphs than lists, so I formatted them differently. */
+
+.descriptivelist
+{
+    text-align : left;
+   	font-size: 13pt;
+  	line-height: 16pt;
+	color: black;
+	margin-bottom: 15pt;
+}
+
+dt
+{
+   font-weight: bold;
+}
+
+dd
+{
+   margin-bottom: 15pt;
+}
+/* I wanted the descriptive lists to appear like text, with headings and words. */
+
+#caption
+{
+	color: grey;
+	text-align : left;
+ 	font-size: 11pt;
+   	line-height: 12pt;
+    margin-top: 2px;
+}
+
+h1
+{
+	background-color: teal;
+	color: white;
+	text-align : left;
+ 	font-size: 25pt;
+   	line-height: 30pt;
+}
+
+h2
+{
+	background-color: silver;
+	color: black;
+	text-align : left;
+ 	font-size: 19pt;
+   	line-height: 23pt;
+}
+
+h3
+{
+    text-align : left;
+    font-size: 17pt;
+    line-height: 16pt;
+	color: teal;
+}
+
+p
+{
+    text-align : left;
+    font-size: 13pt;
+    line-height: 16pt;
+    color: black;
+    margin-bottom: 2pt;
+}
+
+body
+{
+   font-family: "Calibri", "Arial Narrow", sans-serif;
+}
+
