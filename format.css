@@ -33,7 +33,7 @@ dd
 }
 /* I wanted the descriptive lists to appear like text, with headings and words. */
 
-#caption
+.caption
 {
 	color: grey;
 	text-align : left;
