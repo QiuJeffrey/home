@@ -36,9 +36,17 @@ dd
 #validator
 {
    margin-top: 30pt;
+   margin-left: 47%;
 }
 
-/* I just need some space between the sources paragraph and validator image. */
+/* I just need some space between the sources paragraph and validator image. Also the validator image is very small so it requires a lot of margin to be centred. */
+
+#longimg
+{
+    float: right;
+	margin-right: 3%
+}
+/* This image is very long, so I made it float alongside the text. The other images are too square to float alongside the text, making this id unique for this image. */
 
 #longcaption
 {
@@ -50,6 +58,8 @@ dd
 	margin-right: 35%;
 }
 
+/* This caption correspondas with the long image. This caption is also unique, because I wanted it to fit in with the text. I placed a margin on the right so the caption and image would not touch.*/
+
 .caption
 {
 	color: grey;
@@ -59,28 +69,21 @@ dd
 	margin-top: 2px;
 }
 
-#longimg
-{
-    float: right;
-	margin-right: 3%
-}
-/* This image is very long, so I made it float alongside the text. The other images are too square to float alongside the text, making this id unique for this image. The caption is also unique, because I wanted it to fit in with the text. I placed a margin on the right so the caption and image would not touch.*/
-
 #fatimg
 {
-    margin-left: 20%;
+    margin-left: 30%;
 }
 /* This image is very wide, so it requires a different margin than the other images to appear centered. This makes the id unique for the image. */
 
-#wideimg
+#tinyimg
 {
-    margin-left: 25%;
+    margin-left: 37%;
 }
-/* While not as wide as the other image, this image is wider than normal; so it requires a different margin than the other images to appear centered. This makes the id unique for the image. */
+/* This image is much smaller than the others, and requires more margin to be centred. */
 
-.img
+img
 {
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 h1
