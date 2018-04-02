@@ -1,128 +1,77 @@
-head, body
+body
 {
-	background-color: white;
+	font-family: 'Lucida Sans', Arial, sans-serif;
+	font-size: 16px;
 }
-
-.list
-{
-	text-align : left;
-   	font-size: 13pt;
-  	line-height: 16pt;
-	color: black;
-	margin-bottom: 15pt;
-}
-/* All ordered and unordered lists go under the "list" class. I put descriptive lists into their own class because they are more like paragraphs than lists, so I formatted them differently. */
-
-.dlist
-{
-    text-align : left;
-   	font-size: 13pt;
-  	line-height: 16pt;
-	color: black;
-	margin-bottom: 15pt;
-}
-
-dt
-{
-   font-weight: bold;
-}
-
-dd
-{
-   margin-bottom: 15pt;
-}
-/* I wanted the descriptive lists to appear like the website text rather then a separate list. */
-
-#validator
-{
-   margin-top: 30pt;
-   margin-left: 47%;
-}
-
-/* I just need some space between the sources paragraph and validator image. Also the validator image is very small so it requires a lot of margin to be centred. */
-
-#longimg
-{
-    float: right;
-	margin-right: 3%
-}
-/* This image is very long, so I made it float alongside the text. The other images are too square to float alongside the text, making this id unique for this image. */
-
-#longcaption
-{
-	color: grey;
-	text-align : left;
- 	font-size: 11pt;
-   	line-height: 12pt;
-	margin-top: 2px;
-	margin-right: 35%;
-}
-
-/* This caption correspondas with the long image. This caption is also unique, because I wanted it to fit in with the text. I placed a margin on the right so the caption and image would not touch.*/
-
-.caption
-{
-	color: grey;
-	text-align : center;
- 	font-size: 11pt;
-   	line-height: 12pt;
-	margin-top: 2px;
-}
-
-#fatimg
-{
-    margin-left: 30%;
-}
-/* This image is very wide, so it requires a different margin than the other images to appear centered. This makes the id unique for the image. */
-
-#tinyimg
-{
-    margin-left: 37%;
-}
-/* This image is much smaller than the others, and requires more margin to be centred. */
 
 img
 {
-    margin-left: 35%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 4px;
+    margin-bottom: 8px;
 }
 
-h1
+.city
 {
-	background-color: teal;
-	color: white;
-	text-align : left;
- 	font-size: 25pt;
-   	line-height: 30pt;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
 }
 
-h2
+.space
 {
-	background-color: silver;
-	color: black;
-	text-align : left;
- 	font-size: 19pt;
-   	line-height: 23pt;
+    margin-bottom: 60px;
+}
+
+#ok {
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.caption
+{
+    font-size: 11px;
+    color: GrayText;
+    margin-right: 4px;
 }
 
 h3
 {
-    text-align : left;
-    font-size: 17pt;
-    line-height: 16pt;
-	color: teal;
+    color: forestgreen;
 }
 
-p
+#active
 {
-    text-align : left;
-    font-size: 13pt;
-    line-height: 16pt;
-    color: black;
-    margin-bottom: 2pt;
+    background-color: whitesmoke;
+    float: right;
 }
 
-body
+.navbar
 {
-   font-family: "Calibri", "Arial Narrow", sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkseagreen;
 }
 
+li 
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    background-color: darkseagreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: whitesmoke;
+}
